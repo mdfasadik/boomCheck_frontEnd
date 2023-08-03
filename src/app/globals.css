@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+@layer components {
+    .cta {
+        @apply bg-primary-500 font-medium hover:opacity-60 transition-all duration-150 text-white rounded-md py-2 px-4
+    }
+}
